@@ -1,0 +1,14 @@
+{
+  "name": "apicaballero",
+  "version": "1.0.0",
+  "description": "Tool to create routes to hit your api",
+  "main": "APICaballero.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "me@austinflores.com",
+  "license": "ISC",
+  "dependencies": {
+    "superagent": "^3.8.2"
+  }
+}
