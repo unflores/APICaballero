@@ -5,7 +5,7 @@ A dumb API routes builder for calling your backend services
 ## Setting up API routes - caballero.js
 
 ```
-  import APICaballero from './APICaballero'
+  import APICaballero from 'apicaballero'
 
   const routes = {
     options: {
