@@ -1,5 +1,4 @@
 import request from 'superagent'
-import { browserHistory } from 'react-router-dom'
 
 const methodsToHttp = {
   'create':   'post',
@@ -20,9 +19,6 @@ const API = {
         .end((err, res) => {
 
           if(err){
-            if(err.status == 401) {
-              browserHistory.push('/login')
-            }
             reject(err)
           } else
             resolve(res.body)
