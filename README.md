@@ -39,3 +39,8 @@ A dumb API routes builder for calling your backend services
       })
   }
 ```
+## Some things to think about
+
+* what happens when the user calls caballero.derp? What kind of error message should we have?
+* what happens when the user doesn't replace all of the <> values?
+* What happens when the user calls caballero.list butno route has been defined for it?
