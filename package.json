@@ -9,7 +9,6 @@
   "author": "me@austinflores.com",
   "license": "ISC",
   "dependencies": {
-    "react-router-dom": "^4.2.2",
     "superagent": "^3.8.2"
   }
 }
