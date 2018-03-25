@@ -1,2 +1,2 @@
-import APICaballero from 'lib/APICaballero'
+import {APICaballero} from 'lib/APICaballero'
 export default APICaballero
