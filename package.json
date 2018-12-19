@@ -2,7 +2,12 @@
   "name": "apicaballero",
   "version": "1.0.0",
   "description": "Tool to create routes to hit your api",
+  "browser": "bundle.js",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unflores/APICaballero.git"
+  },
   "scripts": {
     "test": "jest"
   },
